@@ -60,7 +60,7 @@ class Player(GameSprite):
     def fire(self):
         bullet = Bullet(img_bullet, self.rect.centerx, self.rect.top, 15, 20, -15)
         bullets.add(bullet)
- 
+ #пержан ти звільнений
 
 class Enemy(GameSprite):
     # рух ворога
